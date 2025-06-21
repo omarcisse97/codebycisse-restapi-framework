@@ -1,0 +1,134 @@
+{
+  "Auth": {
+    "_namespace": "Auth",
+    "_modules": {
+      "Admin": {
+        "_moduleName": "Admin",
+        "_modulePath": "C:\\Users\\OmRtH\\Documents\\learning\\react\\codebycisse-restapi-framework\\app\\code\\Auth\\Admin",
+        "_controller": "C:\\Users\\OmRtH\\Documents\\learning\\react\\codebycisse-restapi-framework\\app\\code\\Auth\\Admin\\Controller\\controller.js",
+        "_publicRoute": "admin/:handle",
+        "_postRoute": "admin/:handle",
+        "_displayInModules": "false"
+      }
+    }
+  },
+  "DatabaseConnection": {
+    "_namespace": "DatabaseConnection",
+    "_modules": {
+      "Postgres": {
+        "_moduleName": "Postgres",
+        "_modulePath": "C:\\Users\\OmRtH\\Documents\\learning\\react\\codebycisse-restapi-framework\\app\\code\\DatabaseConnection\\Postgres",
+        "_controller": "C:\\Users\\OmRtH\\Documents\\learning\\react\\codebycisse-restapi-framework\\app\\code\\DatabaseConnection\\Postgres\\Controller\\controller.js",
+        "_publicRoute": ""
+      }
+    }
+  },
+  "DatabaseManagementDynamic": {
+    "_namespace": "DatabaseManagementDynamic",
+    "_modules": {
+      "DataManagementMenu": {
+        "_moduleName": "List",
+        "_modulePath": "C:\\Users\\OmRtH\\Documents\\learning\\react\\codebycisse-restapi-framework\\app\\code\\DatabaseManagementDynamic\\List",
+        "_controller": "C:\\Users\\OmRtH\\Documents\\learning\\react\\codebycisse-restapi-framework\\app\\code\\DatabaseManagementDynamic\\List\\Controller\\controller.js",
+        "_publicRoute": "database-management/:tableName",
+        "_displayInModules": "false"
+      },
+      "Details": {
+        "_moduleName": "Details",
+        "_modulePath": "C:\\Users\\OmRtH\\Documents\\learning\\react\\codebycisse-restapi-framework\\app\\code\\DatabaseManagementDynamic\\Details",
+        "_controller": "C:\\Users\\OmRtH\\Documents\\learning\\react\\codebycisse-restapi-framework\\app\\code\\DatabaseManagementDynamic\\Details\\Controller\\controller.js",
+        "_publicRoute": "database-management/:tableName/details/:handle",
+        "_displayInModules": "false"
+      },
+      "Edit": {
+        "_moduleName": "Edit",
+        "_modulePath": "C:\\Users\\OmRtH\\Documents\\learning\\react\\codebycisse-restapi-framework\\app\\code\\DatabaseManagementDynamic\\Edit",
+        "_controller": "C:\\Users\\OmRtH\\Documents\\learning\\react\\codebycisse-restapi-framework\\app\\code\\DatabaseManagementDynamic\\Edit\\Controller\\controller.js",
+        "_publicRoute": "database-management/:tableName/edit/:handle",
+        "_postRoute": "database-management/:tableName/edit/:handle",
+        "_displayInModules": "false"
+      },
+      "Delete": {
+        "_moduleName": "Delete",
+        "_modulePath": "C:\\Users\\OmRtH\\Documents\\learning\\react\\codebycisse-restapi-framework\\app\\code\\DatabaseManagementDynamic\\Delete",
+        "_controller": "C:\\Users\\OmRtH\\Documents\\learning\\react\\codebycisse-restapi-framework\\app\\code\\DatabaseManagementDynamic\\Delete\\Controller\\controller.js",
+        "_publicRoute": "database-management/:tableName/delete/:handle",
+        "_postRoute": "database-management/:tableName/delete/:handle",
+        "_displayInModules": "false"
+      },
+      "Create": {
+        "_moduleName": "Create",
+        "_modulePath": "C:\\Users\\OmRtH\\Documents\\learning\\react\\codebycisse-restapi-framework\\app\\code\\DatabaseManagementDynamic\\Create",
+        "_controller": "C:\\Users\\OmRtH\\Documents\\learning\\react\\codebycisse-restapi-framework\\app\\code\\DatabaseManagementDynamic\\Create\\Controller\\controller.js",
+        "_publicRoute": "database-management/:tableName/create",
+        "_postRoute": "database-management/:tableName/create",
+        "_displayInModules": "false"
+      },
+      "DatabaseManagement": {
+        "_moduleName": "Database Management",
+        "_modulePath": "C:\\Users\\OmRtH\\Documents\\learning\\react\\codebycisse-restapi-framework\\app\\code\\DatabaseManagementDynamic\\DatabaseManagement",
+        "_controller": "C:\\Users\\OmRtH\\Documents\\learning\\react\\codebycisse-restapi-framework\\app\\code\\DatabaseManagementDynamic\\DatabaseManagement\\Controller\\controller.js",
+        "_publicRoute": "database-management",
+        "_displayInModules": "true"
+      }
+    }
+  },
+  "DisplayModules": {
+    "_namespace": "DisplayModules",
+    "_modules": {
+      "DisplayModules": {
+        "_moduleName": "DisplayModules",
+        "_modulePath": "C:\\Users\\OmRtH\\Documents\\learning\\react\\codebycisse-restapi-framework\\app\\code\\DisplayModules",
+        "_controller": "C:\\Users\\OmRtH\\Documents\\learning\\react\\codebycisse-restapi-framework\\app\\code\\DisplayModules\\Controller\\controller.js",
+        "_publicRoute": "modules"
+      }
+    }
+  },
+  "RestAPI": {
+    "_namespace": "RestAPI",
+    "_modules": {
+      "ApiKeyManagement": {
+        "_moduleName": "Api Key Management",
+        "_modulePath": "C:\\Users\\OmRtH\\Documents\\learning\\react\\codebycisse-restapi-framework\\app\\code\\RestAPI\\ApiKeyManagement",
+        "_controller": "C:\\Users\\OmRtH\\Documents\\learning\\react\\codebycisse-restapi-framework\\app\\code\\RestAPI\\ApiKeyManagement\\Controller\\controller.js",
+        "_publicRoute": "api/keys",
+        "_displayInModules": "true"
+      },
+      "KeyUpdates": {
+        "_moduleName": "KeyUpdates",
+        "_publicRoute": "",
+        "_modulePath": "C:\\Users\\OmRtH\\Documents\\learning\\react\\codebycisse-restapi-framework\\app\\code\\RestAPI\\KeyUpdates",
+        "_controller": "C:\\Users\\OmRtH\\Documents\\learning\\react\\codebycisse-restapi-framework\\app\\code\\RestAPI\\KeyUpdates\\Controller\\controller.js",
+        "_postRoute": "api/keys/update/:type/:handle",
+        "_displayInModules": "false"
+      },
+      "Suppliers": {
+        "_moduleName": "Suppliers",
+        "_modulePath": "C:\\Users\\OmRtH\\Documents\\learning\\react\\codebycisse-restapi-framework\\app\\code\\RestAPI\\Suppliers",
+        "_controller": "C:\\Users\\OmRtH\\Documents\\learning\\react\\codebycisse-restapi-framework\\app\\code\\RestAPI\\Suppliers\\Controller\\controller.js",
+        "_publicRoute": "api/suppliers/:handle",
+        "_postRoute": "api/suppliers",
+        "_putRoute": "api/suppliers/:handle",
+        "_deleteRoute": "api/suppliers/:handle",
+        "_displayInModules": "false"
+      }
+    }
+  },
+  "System": {
+    "_namespace": "System",
+    "_modules": {
+      "PageFactory": {
+        "_moduleName": "PageFactory",
+        "_modulePath": "C:\\Users\\OmRtH\\Documents\\learning\\react\\codebycisse-restapi-framework\\app\\code\\System\\PageFactory",
+        "_controller": "C:\\Users\\OmRtH\\Documents\\learning\\react\\codebycisse-restapi-framework\\app\\code\\System\\PageFactory\\Controller\\controller.js",
+        "_publicRoute": ""
+      },
+      "ErrorTemplate": {
+        "_moduleName": "ErrorTemplate",
+        "_modulePath": "C:\\Users\\OmRtH\\Documents\\learning\\react\\codebycisse-restapi-framework\\app\\code\\System\\ErrorTemplate",
+        "_controller": "C:\\Users\\OmRtH\\Documents\\learning\\react\\codebycisse-restapi-framework\\app\\code\\System\\ErrorTemplate\\Controller\\controller.js",
+        "_publicRoute": ""
+      }
+    }
+  }
+}
